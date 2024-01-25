@@ -1,0 +1,17 @@
+header {
+    background-image: url('/pics/house1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav ul li a {
+    background-color: var(--bg); /* or any color you prefer */
+    text-decoration: none; /* removes underline */
+    display: inline-block; /* enables padding and background color */
+    transition: background-color 0.3s ease; /* optional, for hover transition */
+}
+
+nav ul li a:hover {
+    background-color: var(--accent-bg); /* or any color for hover state */
+}
